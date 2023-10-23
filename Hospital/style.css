@@ -1,0 +1,518 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Page 1 css started here  */
+
+
+/* Page background image set  */
+.main-section1{
+    background-image: url(./assets/background.png);
+    height: 100vh;
+    width: 100vw;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}
+
+/* Page Container width set  */
+.section1{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+}
+.section2{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+/* Nav-bar started here */
+.nav-bar{
+    display: flex;
+    color: white;
+    justify-content: space-between; 
+    width: 100vw;
+}
+.nav-items{
+    display: flex;
+    padding-top: 30px;
+    gap: 40px;  
+}
+.brand{
+    font-size: 20px;
+    padding-right: 90px;
+}
+.links{
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+.nav-button{
+    padding-top: 30px;
+}
+.button1{
+    cursor: pointer;
+    color: white;
+    background-color: #008b8b;
+    border: none;
+    padding: 10px 25px;
+}
+
+
+
+
+/* Home section css started here */
+
+/* Home Left section css started header */
+.left{
+    padding-top: 200px;
+}
+
+.Heading{
+    font-size: 80px;
+    color: white;
+}
+.paragraph1{
+    font-size: 25px;
+    color: white;
+    padding: 30px 0;
+}
+.button2{
+    color: white;
+    border: none;
+    background-color: #008b8b;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.button3{
+    color: white;
+    border: solid white 1px;
+    background-color: transparent;
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Home Right section css started header */
+.right{
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #00000033;
+    padding: 20px;
+    width: auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+} 
+.Appointment{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0c0808;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+  
+label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #0c0a0a;
+    margin-bottom: 5px;
+}
+  
+input , select {
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+  
+select:focus{
+    outline: none;
+}
+  
+.button4{
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    background: #008000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 25px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Page 2 CSS started here  */
+
+.main-section2{
+    max-width: 1100px;
+    margin: auto;
+    width: 100vw;
+    height: 80vh;
+}
+.Page2-content{
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+/* Boxes css started here  */
+.Page2-box{
+    display: flex;
+    justify-content: space-between;
+}
+.Boxes-1{
+    border: solid 1px #236e23;
+    margin-top: 100px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    transition: 0.8s all ease-in-out;
+}
+.Boxes-1:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 5px #969696;
+}
+.Boxes-1-heading{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px 30px;
+    background-color: #008000;
+}
+.Boxes-1-link{
+    padding: 20px 50px;
+}
+.Learn-More{
+    text-decoration: none;
+    color: #1b6cd7;
+    padding: 0 30px;
+    cursor: grabbing;
+}
+
+
+
+
+
+
+
+
+
+/* Page 3 css started here  */
+.main-section3{
+    background-color: #d4d4d446;
+}
+.rating-section{
+    max-width: 1100px;
+    margin: auto;
+    width: 100vw;
+    height: 70vh;
+}
+.Page3-content{
+    text-align: center;
+    padding-top: 80px;
+}
+.Page3-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.rating{
+    margin-top: 100px;
+    background-color: #ffffff;
+    padding: 20px;
+    transition: all 1s ease-in-out;
+}
+.rating:hover{
+    transform: scale(2.1);
+    box-shadow: 10px 10px 5px #969696;
+}
+.rating>span{
+    color: #f56624;
+    background-color: #ffffff;
+}
+.rating-paragraph{
+    padding-top: 10px;
+}
+.rating>img{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Page 4 css started here  */
+.main-section4{
+    max-width: 1100px;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+}
+.FAQ-section{
+    padding-top: 100px;
+}
+.Page4-content{
+    text-align: center;
+}
+.FAQ-adjust{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 40px;
+    padding-top: 100px;;
+}
+.FAQ-adjust>div>i{
+    color: aquamarine;
+}
+.FAQ-adjust>div{
+    transition: all 0.8s ease-in-out;
+}
+.FAQ-adjust>div:hover{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 5px #969696;
+    background-color: #3572dc;
+    color: rgb(5, 240, 20);
+}
+
+
+
+
+
+/* Page 5 css started here  */
+/* ------------pricing section--------------*/
+
+.bgc-clr{
+    background-color: #d4d4d446;
+}
+.main-head{
+    text-align: center;
+    padding-top: 100px;
+}
+.pricing{
+    width: 100vw;
+    height: 130vh;
+    max-width: 1100px;
+    padding: 15px 20px;
+    margin: auto;
+}
+.card-1{
+    border: #008cff solid 1px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 300px;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out;
+}
+.pricing .main-head>h1{
+    font-size: 35px;
+}
+.card-1 .advtngs{
+    list-style-type: none;
+}
+.advtngs .li-1{
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+.li-1 i{
+    font-size: 24px;
+    color: #08ab08;
+}
+.li-1 h4{
+    font-weight: 400;
+}
+.igray i{
+    color: #949699;
+}
+.card-1{
+    width: 100%;
+}
+.card-1 h1,h2{
+    font-weight: 400;
+}
+.rate{
+    font-size: 30px;
+    font-weight: bolder;
+    color: #008cff;
+    width: 100%;
+    text-align: center;
+}
+
+.rate .cost{
+    font-weight: bolder;
+}
+.rate .dollar,.pm{
+    font-size: 15px;
+}
+.rate .pm{
+    margin-left: -15px;
+}
+.cards{
+    display: flex;
+    padding-top: 100px;
+}
+.card-2{
+    background-color: white;
+    color: #252b44;
+    transition: all 0.5s ease-in-out;
+}
+.cardz:hover{
+    margin-top: -30px;
+    background-color: #252b44;
+    color: white;
+}
+.button-5{
+    cursor: pointer;
+    padding: 15px 30px;
+    color: white;
+    background-color: #008cff; 
+    border: none;
+}
+
+
+
+
+
+
+
+
+/* Page 6 Css started here */
+/* ---------------Pre-footer Email an Sub section------- */
+.pre-footer{
+    background-color: #252b42;
+    height: 200px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.pre-footer-1{
+    width: 100vw;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.sub>button{
+    background-color: #008cff;
+    color: whitesmoke;
+    cursor: pointer;
+    position: relative;
+    left: 180px;
+    padding: 6px 15px;
+    bottom: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.email-left>p{
+    color: #949699;
+    font-size: 14px;
+    margin-top: 8px;
+}
+.email-left>h1{
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+.sub button:hover{
+    background-color: #1e66a1;
+}
+
+
+
+
+
+
+
+
+/* Page 7 css started here  */
+/*------------MAIN FOOTER SECTION -----------*/
+
+.footer{
+    padding: 40px;
+    font-family: 'Roboto', sans-serif;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.f-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 70px;
+    max-width: 1100px;
+}
+
+.f-grid ul{
+    list-style-type: none;
+}
+.f-grid .grid{
+    padding: 5px;
+}
+.f-grid .grid h1{
+    padding-bottom: 25px;
+    letter-spacing: 2px;
+}
+.grid ul>li, .grid p{
+    margin-bottom: 0.8rem;
+    font-weight: 400;
+    color: #949699;
+}
+.grid li:hover{
+    cursor: pointer;
+    color: #535353;
+}
+.grid .logos{
+    display: flex;
+    gap: 20px;
+    font-size: 1.3rem;
+    color:#5490c9;
+    margin-top: 30px;
+}
+.grid .logos i:hover{
+    cursor: pointer;
+    color: #1b88f2;
+}
+.Made-by{
+    text-align: center;
+    color: #535353;
+}
