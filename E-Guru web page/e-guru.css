@@ -1,0 +1,773 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,
+     #fcfcfc 0%,
+     #fcfcfc 55%,
+     #ffffff 55%,
+     #ffffff 100%
+     );
+     height: 100dvh; 
+}
+
+
+/* nav-bar css started */
+/* changes */
+.section1{
+    margin-top: 1.5rem;
+    margin: 1.5rem 0;
+}
+.screen1{
+    width: 100%;
+    margin: auto;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* screen2 Nav bar  */
+.screen2{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.logo{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.Links{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+    align-items: center;
+}
+.button1{
+    padding: 14px 25px;
+    background-color: #fff;
+}
+
+
+/* middle section started */
+
+.section2{
+    /* changes */
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 0px;
+    height: 650px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* left part started */
+/* changes */
+.left-part{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+/* flex-row Vertical align-items horiz is justify */
+.left-head{
+    font-size: 60px;
+}
+/* chnages */
+.para{
+    font-size: larger;
+    padding: 1px 10px;
+    border-left: solid 1px gray;
+    margin-top: 20px;
+}
+.button2{
+    padding: 15px 30px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.button3{
+    padding: 13px 30px;
+    background-color: #fff;
+    border-radius: black 1px;
+}
+.curve-errow{
+    position: absolute;
+    width: 100px;
+    left: 300px;
+    bottom:40px;  
+}
+.btns{
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* right part started */
+.right-part{
+    height: 100%;
+}
+.right-part{
+    position: relative;
+}
+.org-arrow{
+    position: absolute;
+    top: 40px;
+    left: -50px;
+}
+.main-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+.man{
+    position: absolute;
+    width: 300px;
+    border-radius: 10% 10% 100% 99% / 10% 10% 23% 23%;
+    top: 80px;
+}
+.pattern{
+    position: absolute;
+    bottom: 75px;
+}
+.green-errow{
+    position: absolute;
+    left: 20px;
+}
+.circle{
+    position: absolute;
+    bottom: 10px;
+    right:0px;
+}
+.btns1{
+    display: none;
+}
+.button4{
+    padding: 15px 30px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.button5{
+    padding: 13px 30px;
+    background-color: #fff;
+    border-radius: black 1px;
+}
+.curve-errow1{
+    display: none;
+    width: 100px;
+}
+
+/* footer started here */
+.footer{
+    background-color: #262643;
+    color: white;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer>div{
+    padding: 50px 30px;
+}
+.vector1{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+.vector2{
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px;
+}
+.vector3{
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+}
+.best{
+    font-size: 40px;
+    margin: 0;
+}
+.base{
+    font-size: 20px;
+}
+
+
+
+
+/* media queries */
+
+/* section padding added */
+@media screen and (max-width:1400px) {
+    .section1 , .section2{
+        padding: 0 40px;
+    }
+}
+
+/* navbar media query navbar changed */
+@media screen and (max-width:953px) {
+    .screen1{
+        display: none;
+    }
+    .screen2{
+        display: flex;
+    }
+}
+
+/* home section media query */
+
+/* left-part media query */
+@media screen and (max-width:1162px){
+    .left-head{
+        font-size: 55px;
+    }
+}
+@media screen and (max-width:1110px){
+    .left-head{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:1057px){
+    .left-head{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:1005px){
+    .left-head{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:501px){
+    .left-head{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:448px){
+    .left-head{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:399px){
+    .left-head{
+        font-size: 28px;
+    }
+    .para{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:374px){
+    .left-head{
+        font-size: 25px;
+    }
+    .para{
+        font-size: 15px;
+    }
+}
+
+
+/* flex direction changed */
+@media screen and (max-width:953px) {
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/* btns edit media query */
+@media screen and (max-width:953px) {
+    .btns{
+        display: none;
+    }
+    .btns1{
+        display: flex;
+        gap: 20px;
+        text-align: center;
+    }
+}
+/* right-part media query for images */
+
+@media screen and (max-width:1400px) {
+    .man{
+        position: absolute;
+        top: 133px;
+    }
+    .pattern{
+        position: absolute;
+        bottom: 125px;
+    }
+    .green-errow{
+        position: absolute;
+        bottom: 20px;
+    } 
+    .circle{
+        position: absolute;
+        bottom: 50px;
+    }  
+}
+
+
+/* flex column left and right part media query */
+@media screen and (max-width:953px) {
+    .section2{
+        padding-top: 20px;
+        margin-bottom: 100px;
+    }
+    .right-part{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .curve-errow{
+        display: none;
+    }
+    .curve-errow1{
+        display: flex;
+        position: relative;
+        right: -70px;
+        top: 10px;
+    }
+    .bg-org{
+        width: 320px;
+    }
+    .man{
+        width: 200px;
+        top: 40px;
+    }
+    .pattern{
+        width: 350px;
+        bottom: 13px;
+    }
+    .org-arrow{
+        width: 20px;
+        position: absolute;
+        left: 0;
+        top: 80px;
+    }
+    .green-errow{
+        width: 20px;
+        bottom: 10px;
+        left: 40px;
+    }
+    .circle{
+        width: 15px;
+        right: 0;
+    }
+}
+
+
+/* footer media query */
+@media screen and (max-width:1253px) {
+    .best{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:1127px) {
+    .best{
+        font-size: 30px;
+    }
+}*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right,
+     #fcfcfc 0%,
+     #fcfcfc 55%,
+     #ffffff 55%,
+     #ffffff 100%
+     );
+     height: 100dvh; 
+}
+
+
+/* nav-bar css started */
+/* changes */
+.section1{
+    margin-top: 1.5rem;
+    margin: 1.5rem 0;
+}
+.screen1{
+    width: 100%;
+    margin: auto;
+    max-width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* screen2 Nav bar  */
+.screen2{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+.logo{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.Links{
+    display: flex;
+    list-style-type: none;
+    gap: 5rem;
+    align-items: center;
+}
+.button1{
+    padding: 14px 25px;
+    background-color: #fff;
+}
+
+
+/* middle section started */
+
+.section2{
+    /* changes */
+    display: flex;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px 0px;
+    height: 650px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+/* left part started */
+/* changes */
+.left-part{
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+/* flex-row Vertical align-items horiz is justify */
+.left-head{
+    font-size: 60px;
+}
+/* chnages */
+.para{
+    font-size: larger;
+    padding: 1px 10px;
+    border-left: solid 1px gray;
+    margin-top: 20px;
+}
+.button2{
+    padding: 15px 30px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.button3{
+    padding: 13px 30px;
+    background-color: #fff;
+    border-radius: black 1px;
+}
+.curve-errow{
+    position: absolute;
+    width: 100px;
+    left: 300px;
+    bottom:40px;  
+}
+.btns{
+    display: flex; 
+    align-items: center;
+    gap: 5px;
+}
+
+
+/* right part started */
+.right-part{
+    height: 100%;
+}
+.right-part{
+    position: relative;
+}
+.org-arrow{
+    position: absolute;
+    top: 40px;
+    left: -50px;
+}
+.main-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+.man{
+    position: absolute;
+    width: 300px;
+    border-radius: 10% 10% 100% 99% / 10% 10% 23% 23%;
+    top: 80px;
+}
+.pattern{
+    position: absolute;
+    bottom: 75px;
+}
+.green-errow{
+    position: absolute;
+    left: 20px;
+}
+.circle{
+    position: absolute;
+    bottom: 10px;
+    right:0px;
+}
+.btns1{
+    display: none;
+}
+.button4{
+    padding: 15px 30px;
+    color: white;
+    background-color: red;
+    border: none;
+}
+.button5{
+    padding: 13px 30px;
+    background-color: #fff;
+    border-radius: black 1px;
+}
+.curve-errow1{
+    display: none;
+    width: 100px;
+}
+
+/* footer started here */
+.footer{
+    background-color: #262643;
+    color: white;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer>div{
+    padding: 50px 30px;
+}
+.vector1{
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+.vector2{
+    background-color: orangered;
+    border-radius: 10px;
+    padding: 10px;
+}
+.vector3{
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+}
+.best{
+    font-size: 40px;
+    margin: 0;
+}
+.base{
+    font-size: 20px;
+}
+
+
+
+
+/* media queries */
+
+/* section padding added */
+@media screen and (max-width:1400px) {
+    .section1 , .section2{
+        padding: 0 40px;
+    }
+}
+
+/* navbar media query navbar changed */
+@media screen and (max-width:953px) {
+    .screen1{
+        display: none;
+    }
+    .screen2{
+        display: flex;
+    }
+}
+
+/* home section media query */
+
+/* left-part media query */
+@media screen and (max-width:1162px){
+    .left-head{
+        font-size: 55px;
+    }
+}
+@media screen and (max-width:1110px){
+    .left-head{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:1057px){
+    .left-head{
+        font-size: 45px;
+    }
+}
+@media screen and (max-width:1005px){
+    .left-head{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:501px){
+    .left-head{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:448px){
+    .left-head{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:399px){
+    .left-head{
+        font-size: 28px;
+    }
+    .para{
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:374px){
+    .left-head{
+        font-size: 25px;
+    }
+    .para{
+        font-size: 15px;
+    }
+}
+
+
+/* flex direction changed */
+@media screen and (max-width:953px) {
+    .section2{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+/* btns edit media query */
+@media screen and (max-width:953px) {
+    .btns{
+        display: none;
+    }
+    .btns1{
+        display: flex;
+        gap: 20px;
+        text-align: center;
+    }
+}
+/* right-part media query for images */
+
+@media screen and (max-width:1400px) {
+    .man{
+        position: absolute;
+        top: 133px;
+    }
+    .pattern{
+        position: absolute;
+        bottom: 125px;
+    }
+    .green-errow{
+        position: absolute;
+        bottom: 20px;
+    } 
+    .circle{
+        position: absolute;
+        bottom: 50px;
+    }  
+}
+
+
+/* flex column left and right part media query */
+@media screen and (max-width:953px) {
+    .section2{
+        padding-top: 20px;
+        margin-bottom: 100px;
+    }
+    .right-part{
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+    .curve-errow{
+        display: none;
+    }
+    .curve-errow1{
+        display: flex;
+        position: relative;
+        right: -70px;
+        top: 10px;
+    }
+    .bg-org{
+        width: 320px;
+    }
+    .man{
+        width: 200px;
+        top: 40px;
+    }
+    .pattern{
+        width: 350px;
+        bottom: 13px;
+    }
+    .org-arrow{
+        width: 20px;
+        position: absolute;
+        left: 0;
+        top: 80px;
+    }
+    .green-errow{
+        width: 20px;
+        bottom: 10px;
+        left: 40px;
+    }
+    .circle{
+        width: 15px;
+        right: 0;
+    }
+}
+
+
+/* footer media query */
+@media screen and (max-width:1253px) {
+    .best{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width:1127px) {
+    .best{
+        font-size: 30px;
+    }
+}
