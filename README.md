@@ -1,6 +1,6 @@
-# Milestone-Project--PW-SKills
+# Milestone-Project
 
-This repository contains milestone projects built while learning **Full Stack Web Development from PW Skills**.
+This repository contains milestone projects built while learning **Full Stack Web Development**.
 These projects focus on practicing **HTML, CSS, Tailwind CSS, and responsive web design** by building real-world website layouts.
 
 ---
@@ -111,7 +111,7 @@ Simply open their `index.html` files using **Live Server**.
 ## 📂 Repository Structure
 
 ```
-Milestone-Project--PW-Skills
+Milestone-Project
 │
 ├── Bike Landing Page
 │   ├── src
